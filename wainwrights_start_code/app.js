@@ -62,3 +62,21 @@ fetchDataAndDisplay();
 
 
 
+// EXTENTION - does not work! 
+// Task: Make your page display an error message should it meet an error on querying the API. Test this out by trying to access an endpoint which doesn't exist for the API
+
+// const fetchDataAndDisplay = async () => {
+//     try {
+//         const wainwrights = await getAllWainwrights();
+//         console.log(wainwrights);
+//         displayWainwrights(wainwrights);
+//         document.getElementById('filter-form').addEventListener('submit', filterWainwrights);
+//         document.getElementById('status').textContent = 'API completed';
+//     } catch (error) {
+//         console.error('Error fetching Wainwrights data:', error);
+//         const errorMessageElement = document.getElementById('error-message');
+//         errorMessageElement.textContent = `Error fetching Wainwrights data: ${error.message}`;
+//         errorMessageElement.classList.remove('hidden');
+//         document.getElementById('status').textContent = 'Failed to fetch data from API';
+//     }
+// };
