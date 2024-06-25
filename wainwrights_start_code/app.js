@@ -46,6 +46,7 @@ const filterWainwrights = (event) => {
 };
 
 // 5.  function which takes the global variable (see above, step 2) and filters it based on the value received from your form.
+// attempted extension 
 const fetchDataAndDisplay = async () => {
     try {
         wainwrights = await getAllWainwrights();
