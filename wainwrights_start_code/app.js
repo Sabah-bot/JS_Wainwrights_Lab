@@ -1,4 +1,4 @@
-let wainwrights = [];  // Declare a global variable to hold Wainwrights data
+let wainwrights = [];  // Declare a global variable to hold Wainwrights data (step 5)
 
 // 1. Request to the wainwrights resource and returns the reponse as JSON. 
 const getAllWainwrights = async () => {
@@ -46,7 +46,7 @@ const filterWainwrights = (event) => {
 };
 
 // 5.  function which takes the global variable (see above, step 2) and filters it based on the value received from your form.
-// attempted extension 
+// attempted extension - does not work! 
 const fetchDataAndDisplay = async () => {
     try {
         wainwrights = await getAllWainwrights();
